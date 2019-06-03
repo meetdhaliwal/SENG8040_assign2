@@ -1,0 +1,2 @@
+C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.csprojAssemblyReference.cache
+C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.csproj.CoreCompileInputs.cache
