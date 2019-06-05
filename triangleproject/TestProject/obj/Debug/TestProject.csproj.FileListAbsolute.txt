@@ -1,0 +1,12 @@
+C:\Users\meet\source\repos\triangleproject\TestProject\obj\Debug\TestProject.csprojAssemblyReference.cache
+C:\Users\meet\source\repos\triangleproject\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\meet\source\repos\triangleproject\TestProject\bin\Debug\TestProject.dll
+C:\Users\meet\source\repos\triangleproject\TestProject\bin\Debug\TestProject.pdb
+C:\Users\meet\source\repos\triangleproject\TestProject\bin\Debug\nunit.framework.dll
+C:\Users\meet\source\repos\triangleproject\TestProject\bin\Debug\triangleproject.exe
+C:\Users\meet\source\repos\triangleproject\TestProject\bin\Debug\triangleproject.pdb
+C:\Users\meet\source\repos\triangleproject\TestProject\bin\Debug\triangleproject.exe.config
+C:\Users\meet\source\repos\triangleproject\TestProject\bin\Debug\nunit.framework.xml
+C:\Users\meet\source\repos\triangleproject\TestProject\obj\Debug\TestProject.csproj.CopyComplete
+C:\Users\meet\source\repos\triangleproject\TestProject\obj\Debug\TestProject.dll
+C:\Users\meet\source\repos\triangleproject\TestProject\obj\Debug\TestProject.pdb

@@ -5,3 +5,6 @@ C:\Users\meet\source\repos\triangleproject\triangleproject\bin\Debug\trianglepro
 C:\Users\meet\source\repos\triangleproject\triangleproject\bin\Debug\triangleproject.pdb
 C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.exe
 C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.pdb
+C:\Users\meet\source\repos\triangleproject\triangleproject\bin\Debug\nunit.framework.dll
+C:\Users\meet\source\repos\triangleproject\triangleproject\bin\Debug\nunit.framework.xml
+C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.csproj.CopyComplete

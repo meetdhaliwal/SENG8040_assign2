@@ -8,9 +8,6 @@ namespace triangleproject
 {
     class Program
     {
-
-
-
         public static int ProgramMenu()
         {
             string inputValue = string.Empty;
@@ -40,7 +37,7 @@ namespace triangleproject
             {
                 Console.Write("Enter the {0} side of the triangle: ", s);
                 bool result = int.TryParse(Console.ReadLine(), out side);
-                if (result && side>=0)
+                if (result && side>0)
                 {
                     flag = false;
                 }
@@ -50,48 +47,26 @@ namespace triangleproject
                 }
             }
             return side;
-
         }
         public static bool InVal()
         {
             bool flag = false;
-
             int side1 = getside("first");
             int side2 = getside("second");
             int side3 = getside("third");
             string type = TriangleSolver.Analyze(side1, side2, side3);
             if (type != "notTriangle")
-            {
-              
+            {              
                 Console.WriteLine("Values you entered forms a triangle.");
-                Console.WriteLine("the values you have entered will make a {0} triangle", type);
-
+                Console.WriteLine("The values you have entered  makes a {0} triangle", type);
             }
             else
-            {
-              
-                Console.WriteLine("the values will not make a triangle!");
+            {             
+                Console.WriteLine("The values does not make a triangle!");
                 flag = true;
-            }
-           
+            }           
             return flag;
-            // string inputUser = "";
-
-            // side1
-
-            //  Console.Write("Enter the second side of the triangle: ");
-            //   side2= Console.ReadLine();
-            //  Console.Write("Enter the thord side of the triangle: ");
-            //   side3= Console.ReadLine();
-            //   Console.WriteLine();
-            // Console.WriteLine("Enter sides of the triangle:/n",inputUser);
-
-
-
-            // public static void SecondMenuOption(int choice)
-
         }
-
         public static void Run()
         {
             int choice=ProgramMenu();
@@ -99,23 +74,17 @@ namespace triangleproject
             {
                 case 1:
                     Console.WriteLine("");
-                  bool repeat = InVal();
+                    bool repeat = InVal();
                     Run();
-                    
                     break;
                 case 2:
                     Environment.Exit(0);
                     break;
-            }
-
-
-
-            
+            }           
         }
         public static void Main(string[] args)
         {
             Run();
         }
     }
-
 }

@@ -16,7 +16,7 @@ namespace triangleproject
             string meet = string.Empty;
           
 
-             if (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2)
+             if (side1 + side2 >side3 && side2 + side3 > side1 && side1 + side3 > side2)
             {
                
                 if (side1 == side2 && side2 == side3)
@@ -38,8 +38,6 @@ namespace triangleproject
             {
                 meet = "notTriangle";
             }
-
-           
             return meet;
         }
 
