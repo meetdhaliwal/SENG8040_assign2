@@ -1,2 +1,7 @@
 C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.csprojAssemblyReference.cache
 C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.csproj.CoreCompileInputs.cache
+C:\Users\meet\source\repos\triangleproject\triangleproject\bin\Debug\triangleproject.exe.config
+C:\Users\meet\source\repos\triangleproject\triangleproject\bin\Debug\triangleproject.exe
+C:\Users\meet\source\repos\triangleproject\triangleproject\bin\Debug\triangleproject.pdb
+C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.exe
+C:\Users\meet\source\repos\triangleproject\triangleproject\obj\Debug\triangleproject.pdb

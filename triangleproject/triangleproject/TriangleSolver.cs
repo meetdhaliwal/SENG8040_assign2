@@ -9,34 +9,39 @@ namespace triangleproject
     public static class TriangleSolver
     {
 
-
-        public static string Analyze(int part1, int part2, int part3)
+        
+        public static string Analyze(int side1, int side2, int side3)
         {
-            string x = string.Empty;
-            if (part1 + part2 > part3 && part2 + part3 > part1 && part1 + part3 > part2)
+            
+            string meet = string.Empty;
+          
+
+             if (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2)
             {
-                Console.WriteLine("Values you entered forms a triangle.");
+               
+                if (side1 == side2 && side2 == side3)
+                {
+                    meet = "equilateral";
+                }
+                else if (side1 == side2 || side2 == side3 || side1 == side3)
+                {
+                    meet = "isoceles";
+                }
+                else 
+                {
+                    
+                    meet = "scalene";
+                }
             }
-            else if (part1 == part2 && part2 == part3)
-            {
-                Console.Write("It is an equilateral triangle\n");
-            }
-            else if (part1 == part2 || part2 == part3 || part1 == part3)
-            {
-                Console.Write("It is an isosceles triangle\n");
-            }
+
             else
             {
-                Console.Write("It is an scalene triangle\n");
+                meet = "notTriangle";
             }
-            
-        
-            
-            return x;
+
+           
+            return meet;
         }
 
     }
-    } 
-
-    
-
+}
