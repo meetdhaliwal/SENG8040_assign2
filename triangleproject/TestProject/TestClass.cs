@@ -20,7 +20,8 @@ namespace TestProject
             int side2 =2;
             int side3 =2;
 
-            bool expectedResult =(side1 == side2 && side2 == side3);
+            string expectedResult = "equilateral";
+            
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1,side2,side3);
@@ -36,7 +37,7 @@ namespace TestProject
             int side2 = 1000;
             int side3 = 1000;
 
-            bool expectedResult = (side1 == side2 && side2 == side3);
+            string expectedResult = "equilateral";
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1, side2, side3);
@@ -52,7 +53,7 @@ namespace TestProject
             int side2 = 7;
             int side3 = 9;
 
-            bool expectedResult = (side1 == side2 || side2 == side3 || side1 == side3);
+            string expectedResult = "isoceles";
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1, side2, side3);
@@ -68,7 +69,7 @@ namespace TestProject
             int side2 = 95;
             int side3 = 85;
 
-            bool expectedResult = (side1 == side2 || side2 == side3 || side1 == side3);
+            string expectedResult = "isoceles";
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1, side2, side3);
@@ -78,14 +79,14 @@ namespace TestProject
         }
 
         [Test]
-        public void Analyze_inputside1as1side2as2andside3as3_expectedoutputEqualsscalene()
+        public void Analyze_inputside1as3side2as5andside3as4_expectedoutputEqualsscalene()
         {
             //Arrange
-            int side1 = 1;
-            int side2 = 2;
-            int side3 = 3;
+            int side1 = 3;
+            int side2 = 5;
+            int side3 = 4;
 
-            bool expectedResult = (side1 != side2 && side2 != side3 && side1 != side3);
+            string expectedResult = "scalene";
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1, side2, side3);
@@ -102,7 +103,7 @@ namespace TestProject
             int side2 = 1005;
             int side3 = 1008;
 
-            bool expectedResult = (side1 != side2 && side2 != side3 && side1 != side3);
+            string expectedResult = "scalene";
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1, side2, side3);
@@ -118,7 +119,7 @@ namespace TestProject
             int side2 = 99;
             int side3 = 89;
 
-            bool expectedResult = (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2);
+            string expectedResult = "notTriangle";
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1, side2, side3);
@@ -135,7 +136,7 @@ namespace TestProject
             int side2 = 123;
             int side3 = 4;
 
-             bool expectedResult = (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2);
+             string expectedResult = "notTriangle";
 
             //Act
             string actualResult = TriangleSolver.Analyze(side1, side2, side3);
